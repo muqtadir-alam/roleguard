@@ -1,0 +1,26 @@
+{
+  "name": "roleguard-api-backend",
+  "version": "1.0.0",
+  "description": "Role-Based Access Guard API with JWT Authentication and RBAC",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "keywords": ["nodejs", "express", "jwt", "rbac", "api"],
+  "author": "Muqtadir",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "express-validator": "^7.3.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}

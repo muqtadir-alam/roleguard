@@ -1,0 +1,59 @@
+# 🔐 Environment variables
+.env
+.env.*
+!.env.example
+
+# 📦 Dependencies
+node_modules/
+
+# 🚀 Build outputs
+dist/
+build/
+.next/
+out/
+
+# 🧪 Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 💻 OS files
+.DS_Store
+Thumbs.db
+
+# 🧑‍💻 IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 🗂️ Temporary files
+*.tmp
+*.temp
+
+# 🧪 Coverage
+coverage/
+
+# 🐳 Docker (optional)
+docker-compose.override.yml
+
+# 🔑 Keys / Certificates
+*.pem
+*.key
+
+# 📦 Package lock (optional)
+# Uncomment if needed
+# package-lock.json
+# yarn.lock
+
+# 🧰 Misc
+.cache/
+.parcel-cache/
+
+# 📝 Next.js specific
+.next/cache
+
+# 🧪 Testing
+jest.config.js
