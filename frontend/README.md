@@ -1,36 +1,167 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 RoleGuard – Frontend (UI)
 
-## Getting Started
+## 🌐 Live Demo
 
-First, run the development server:
+👉 https://roleguard-git-main-muqtadiralamdev-5439s-projects.vercel.app/
 
-```bash
+---
+
+## 🧠 Overview
+
+RoleGuard Frontend is a modern web UI built with Next.js that allows users to:
+
+* Register & Login securely
+* Manage tasks (CRUD)
+* Experience role-based UI (User/Admin)
+
+It connects to a backend API for authentication and data handling.
+
+---
+
+## 🛠 Tech Stack
+
+* Next.js
+* React
+* Ant Design
+* Axios
+
+---
+
+## 🎨 Features
+
+### 🔐 Authentication UI
+
+* User Registration
+* User Login
+* JWT token stored in localStorage
+* Form validation & error messages
+
+---
+
+### 📊 Dashboard
+
+* View all tasks
+* Create new task
+* Edit task
+* Delete task
+
+---
+
+### 🛡 Role-Based UI
+
+* User → Manage own tasks
+* Admin → Delete any task
+
+---
+
+### ⚡ UX Features
+
+* Ant Design UI components
+* Success/Error messages
+* Loading states
+* Protected routes
+
+---
+
+## 📂 Project Structure
+
+frontend/
+├── app/
+│   ├── page.tsx
+│   ├── register/
+│   ├── dashboard/
+│   ├── layout.tsx
+│
+├── components/
+├── services/
+│   └── api.js
+│
+├── .env.local
+└── package.json
+
+---
+
+## 🔑 Environment Variables
+
+Create file:
+frontend/.env.local
+
+Add:
+
+NEXT_PUBLIC_API_URL=https://your-backend.onrender.com/api/v1
+
+---
+
+## 🔌 API Integration
+
+import axios from "axios";
+
+const API = axios.create({
+baseURL: process.env.NEXT_PUBLIC_API_URL
+});
+
+export default API;
+
+---
+
+## 🚀 Installation & Setup
+
+git clone https://github.com/muqtadir-alam/roleguard.git
+cd roleguard/frontend
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🔐 Authentication Flow
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. User logs in
+2. Backend returns token
+3. Token stored in localStorage
+4. Token sent with requests
 
-## Learn More
+Authorization: Bearer <token>
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## ⚠️ Important Notes
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+* Use NEXT_PUBLIC_ prefix for env
+* Backend must be running
+* Use backend URL (not Vercel frontend)
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🚀 Deployment
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Frontend deployed on Vercel
+
+Steps:
+
+1. Connect GitHub
+2. Set Root Directory → frontend
+3. Add environment variable
+4. Deploy
+
+---
+
+## 🎯 Future Improvements
+
+* Dark mode
+* Pagination
+* Better UI/UX
+* Global state
+
+---
+
+## 👨‍💻 Author
+
+Muqtadir Alam
+
+---
+
+## ⭐ Notes
+
+* Clean UI + API integration
+* Lightweight and scalable
+* Ready for production extension

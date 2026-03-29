@@ -6,8 +6,8 @@ A full-stack application demonstrating **secure authentication, role-based acces
 
 # 📌 Live Demo
 
-* 🌐 Frontend: https://your-frontend.vercel.app
-* ⚙ Backend API: https://your-backend.onrender.com
+* 🌐 Frontend: https://roleguard-git-main-muqtadiralamdev-5439s-projects.vercel.app/
+* ⚙ Backend API: https://roleguard-by2t.vercel.app/
 
 ---
 
@@ -40,7 +40,7 @@ This project implements a **scalable REST API** with:
 
 ## Deployment
 
-* Backend: Render
+* Backend: Vercel
 * Frontend: Vercel
 * Database: MongoDB Atlas
 
@@ -147,7 +147,7 @@ NEXT_PUBLIC_API_URL=https://your-backend.onrender.com
 ## 1️⃣ Clone Repository
 
 ```bash
-git clone https://github.com/yourusername/roleguard-api.git
+git clone https://github.com/muqtadir-alam/roleguard.git
 cd roleguard
 ```
 
@@ -221,7 +221,7 @@ npm run dev
 # 📄 API Documentation
 
 * Postman Collection (included in repo)
-* Swagger (optional)
+https://muqtadir-alam-dev-1813799.postman.co/workspace/f2e8743f-830e-4b79-8252-4db0c051fe3d/collection/50291454-8d76a5f4-700d-4196-880b-a37889e6fed0?action=share&source=copy-link&creator=50291454
 
 ---
 
