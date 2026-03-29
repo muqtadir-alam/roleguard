@@ -21,7 +21,12 @@ export default function Login() {
     }
   }, [form]);
 
-  const onFinish = async (values) => {
+  type LoginFormValues = {
+  email: string;
+  password: string;
+  remember: boolean
+}; 
+  const onFinish = async (values : LoginFormValues) => {
     setLoading(true);
     try {
       const res = await API.post("/auth/login", values);
@@ -42,7 +47,7 @@ export default function Login() {
       } else {
         message.error(res.data.message);
       }
-    } catch (err) {
+    } catch (err: any) {
       message.error(err.response?.data?.message || "Login failed");
     } finally {
       setLoading(false);

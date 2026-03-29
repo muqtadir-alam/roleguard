@@ -155,7 +155,7 @@ export default function Register() {
           </Form.Item>
 
           {/* Optional Role */}
-          <Form.Item name="role" label="Role (Optional)">
+          {/* <Form.Item name="role" label="Role (Optional)">
             <Select
               placeholder="Select role"
               className="rounded-lg"
@@ -164,7 +164,7 @@ export default function Register() {
                 { label: "Admin", value: "admin" },
               ]}
             />
-          </Form.Item>
+          </Form.Item> */}
 
           {/* Submit Button */}
           <Button
