@@ -6,6 +6,11 @@ A full-stack application demonstrating **secure authentication, role-based acces
 
 # 📌 Live Demo
 
+## Admin Credentials (Demo)
+
+Email: muqtadir.alam.dev@gmail.com  
+Password: Admin@123
+
 * 🌐 Frontend: https://roleguard-git-main-muqtadiralamdev-5439s-projects.vercel.app/
 * ⚙ Backend API: https://roleguard-by2t.vercel.app/
 

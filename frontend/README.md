@@ -2,6 +2,11 @@
 
 ## 🌐 Live Demo
 
+## Admin Credentials (Demo)
+
+Email: muqtadir.alam.dev@gmail.com  
+Password: Admin@123
+
 👉 https://roleguard-git-main-muqtadiralamdev-5439s-projects.vercel.app/
 
 ---
